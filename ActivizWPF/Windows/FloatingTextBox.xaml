@@ -1,0 +1,9 @@
+﻿<Window x:Class="ActivizWPF.Windows.FloatingTextBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStyle="None" ShowInTaskbar="False" SizeToContent="WidthAndHeight"
+        AllowsTransparency="True" Background="Transparent" Topmost="True">
+    <DockPanel LastChildFill="True">
+        <TextBox Name="TextBox" MouseLeave="OnMouseLeave" KeyDown="OnKeyDown" LostFocus="OnLostFocus"/>
+    </DockPanel>
+</Window>
