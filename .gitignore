@@ -1,0 +1,30 @@
+*_name_S*
+
+# Output directories
+obj/
+bin/
+/bin/
+/.vscode
+
+#Backup files
+*.bak
+
+# Temporary VS files
+*.suo
+*.csproj.user
+*.wixproj.user
+*.pidb
+*.db
+*.opendb
+*.lock.json
+*.nuget.targets
+
+# NuGet Packages
+packages/*
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
+# Generated files
+BuildInfo.Generated.cs
+CurrentVersion.Generated.cs
