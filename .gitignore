@@ -28,3 +28,5 @@ packages/*
 # Generated files
 BuildInfo.Generated.cs
 CurrentVersion.Generated.cs
+*.suo
+*.sdf
